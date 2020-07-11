@@ -1,8 +1,22 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
+
+h1 {
+	font-family: myFont, serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: myFont, serif;
+	font-size: 30px;
+	color: rgb(135, 134, 134);
+}
 
 body {
 	background: #F3EBE9;
@@ -18,3 +32,29 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(135, 134, 134); 
+}
+
+#necklace img {
+	border: 5px solid grey;
+}
+
+#necklace a {
+	color: blue;
+	text-decoration: none;
+}
+
+#press img {
+	border: 5px solid rgb(174, 174, 174); 
+} 
+
+#press img:hover {
+	border: 5px solid black;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
